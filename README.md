@@ -9,8 +9,8 @@ npm i --save qed-currencies-calculator
 
 ![Component Preview](https://raw.githubusercontent.com/QEDteam/qed-currency-converter/master/dist/calculator.png)
 ```javascript
-    import QedCurrencyConverter from 'qed-currencies-converter'
-    import 'qed-currencies-converter/dist/qed-currency-converter-style.css'
+    import QedCurrencyCalculator from 'qed-currencies-calculator'
+    import 'qed-currencies-converter/dist/qed-currency-calculator-style.css'
 ```
 More styles will be available soon.
 
@@ -19,7 +19,7 @@ More styles will be available soon.
 Import component
 
 ```javascript
-    import QedCurrencyCalculator from 'qed-currencies-converter'
+    import QedCurrencyCalculator from 'qed-currencies-calculator'
     import 'qed-currencies-calculator/dist/qed-currency-calculator-style.css'
 
     const app = new Vue({
