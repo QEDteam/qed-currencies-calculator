@@ -29,6 +29,45 @@ Import component
     };
 ```
 
+Allowed currencies
+
+```javascript
+    currencies: {
+        'EUR',
+        'USD',
+        'JPY',
+        'GBP',
+        'BGN',
+        'CZK',
+        'DKK',
+        'HUF',
+        'PLN',
+        'RON',
+        'SEK',
+        'CHF',
+        'ISK',
+        'NOK',
+        'HRK',
+        'RUB',
+        'TRY',
+        'AUD',
+        'BRL',
+        'CNY',
+        'HKD',
+        'IDR',
+        'ILS',
+        'INR',
+        'KRW',
+        'MXN',
+        'MYR',
+        'NZD',
+        'PHP',
+        'SGD',
+        'THB',
+        'ZAR',
+    }
+```
+
 ```html
 <div>
     <qed-currency-calculator/>

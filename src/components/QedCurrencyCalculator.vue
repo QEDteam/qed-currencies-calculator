@@ -25,17 +25,101 @@ export default {
             resultCurrency: "EUR",
             currencies: {
                 EUR: {
-                    symbols: ["€", "eur", "euro"]
+                    symbols: ["€", "eur", "euro", "euros"]
                 },
                 USD: {
-                    symbols: ["$", "usd", "dollar", "american dollar"]
+                    symbols: ["$", "usd", "dollar", "american dollar", "dollars"]
                 },
                 JPY: {
                     symbols: ["¥", "jpy", "yen", "japanese yen", "JP¥"]
                 },
                 GBP: {
-                    symbols: ["£", "gbp", "british pound", "sterling", "pound"]
-                }
+                    symbols: ["£", "gbp", "pounds", "sterling", "pound"]
+                },
+                BGN: {
+                    symbols: ["bgn", "lev", "levs", "лв", "лев", "leva", "левове"]
+                },
+                CZK: {
+                    symbols: ["koruna", "czk", "Kč", "Czech krone", "Czech crown"]
+                },
+                DKK: {
+                    symbols: ["krone", "dkk", "kroner", "kr."],
+                },
+                HUF: {
+                    symbols: ["forint", "Ft", "huf"],
+                },
+                PLN: {
+                    symbols: ["złoty", "zł", "zloty", "zlote", "pln"],
+                },
+                RON: {
+                    symbols: ["leu", "lei", "L", "lew", "ron"],
+                },
+                SEK: {
+                    symbols: ["kr", "sek", "krona", "kronor", "spänn", "pix"],
+                },
+                CHF: {
+                    symbols: ["franc", "chf", "franken", "Fr.", "SFr.", "francs"],
+                },
+                ISK: {
+                    symbols: ["isk"]
+                },
+                NOK: {
+                    symbols: ["nok"]
+                },
+                HRK: {
+                    symbols: ["hrk", "kuna", "kn"]
+                },
+                RUB: {
+                    symbols: ["ruble", "rouble", "rubli", "rub", "₽", "рубль", "рубли́", "руб"],
+                },
+                TRY: {
+                    symbols: ["try", "tl", "₺", "lira"]
+                },
+                AUD: {
+                    symbols: ["aud"]
+                },
+                BRL: {
+                    symbols: ["brl", "real", "R$", "reais"]
+                },
+                CNY: {
+                    symbols: ["cny", "Renminbi", "yuan"]
+                },
+                HKD: {
+                    symbols: ["hkd", "港幣", "HK$"]
+                },
+                IDR: {
+                    symbols: ["idr", "Rp", "rupiah", "perak"]
+                },
+                ILS: {
+                    symbols: ["ils", "shekel", "shekels", "sheqalim"]
+                },
+                INR: {
+                    symbols: ["inr", "Rupee", "₹"]
+                },
+                KRW: {
+                    symbols: ["krw", "₩"]
+                },
+                MXN: {
+                    symbols: ["mxn", "peso"]
+                },
+                MYR: {
+                    symbols: ["myr"]
+                },
+                NZD: {
+                    symbols: ["nzd"]
+                },
+                PHP: {
+                    symbols: ["php", "₱"]
+                },
+                SGD: {
+                    symbols: ["sgd"]
+                },
+                THB: {
+                    symbols: ["thb", "฿", "baht"]
+                },
+                ZAR: {
+                    symbols: ["zar", "rand"]
+                },
             }
         };
     },
