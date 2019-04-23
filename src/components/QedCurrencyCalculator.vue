@@ -113,7 +113,6 @@ export default {
             for (const key in ratesCopy) {
                 ratesCopy[key] /= ratesCopy[goalCurrency];
             }
-            console.log(goalCurrency);
             this.tokens.forEach((token, index) => {
                 // First element always +
                 if (index === 0) {
