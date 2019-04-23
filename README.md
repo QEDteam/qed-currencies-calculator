@@ -7,7 +7,7 @@ npm i --save qed-currencies-calculator
 ```
 ## Preview
 
-![Component Preview](https://raw.githubusercontent.com/QEDteam/qed-currency-converter/master/dist/calculator.png)
+![Component Preview](https://raw.githubusercontent.com/QEDteam/qed-currencies-calculator/master/dist/calculator.png)
 ```javascript
     import QedCurrencyCalculator from 'qed-currencies-calculator'
     import 'qed-currencies-converter/dist/qed-currency-calculator-style.css'
