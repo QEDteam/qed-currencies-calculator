@@ -164,6 +164,9 @@ export default {
                 })
                 .catch(() => {
                     this.rates = {};
+                    setTimeout(() => {
+                        this.getRates();
+                    }, 3000);
                 });
         }
     }
