@@ -1,11 +1,15 @@
 <template>
-    <div class="qed-container" v-if="checkSetup">
-        <input type="text" class="qed-input" v-model="input">
+    <div class="qed-container">
+        <div v-if="checkSetup">
+            <input type="text" class="qed-input" v-model="input">
 
-        <div class="value">{{ this.result }}</div>
-        <select class="qed-select" v-model="resultCurrency">
-            <option v-for="(curreny, key) in currencies" v-bind:key="key" :value="key">{{ key }}</option>
-        </select>
+            <div class="value">{{ this.result }}</div>
+            <select class="qed-select" v-model="resultCurrency">
+                <option v-for="(curreny, key) in currencies" v-bind:key="key" :value="key">{{ key }}</option>
+            </select>
+        </div>
+        
+        <div class="loader" v-else><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
     </div>
 </template>
 
